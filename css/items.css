@@ -1,0 +1,76 @@
+/* 
+  Name: Zhiping Yu  Student Number: 000822513
+  File Created Date: 2020-11-17
+  Purpose: This css file is to decorate the index.html webpage and make it 
+           more attractive for users.
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+    background-color: rgb(143, 143, 194);
+}
+
+input {
+    font-size: 1.2em;
+    padding: 2px;
+}
+
+div {
+    margin-top: 10px;
+}
+
+#container {
+    max-width: 800px;
+    margin: auto;
+}
+
+#header {
+    text-align: center;
+    border-bottom: 4px solid rgb(173, 54, 54);
+    padding: 20px;
+}
+
+#body {
+    padding: 20px;
+    padding-bottom: 10px;
+
+}
+
+#items {
+    padding-left: 20px;
+
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+input[type=number] {
+    width: 80px;
+    text-align: right;
+}
+
+input[type=button] {
+    width: 60px;
+    text-align: center;
+    height: 30px;
+}
+
+input {
+    margin-right: 5px;
+    font-size: 20px;
+}
+
+#items {
+    font-size: 20px;
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<!--  
+    Name: Zhiping Yu  Student Number: 000822513
+    File Created Date: 2020-11-17
+    Purpose: Display the front page for the user. In addition, it connects to the css file and 
+    js file in order to make the page dynamic and more attractive. 
+-->
+<html>
+
+<head>
+    <title>Shipping List </title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/items.css">
+    <script src="js/displayList.js"></script>
+</head>
+
+<body>
+    <div id="container">
+        <div id="header">
+            <h1>My Shopping List For Thanksgiving Day</h1>
+            <h2>Created by Zhiping Yu</h2>
+        </div>
+        <div id="body">
+            <input type="text" id="item" placeholder="Item" required autofocus>
+            <input type="number" id="quantity" value="1">
+            <input type="button" id="clickme" value="Add">   
+            <span id="target"></span>
+        </div>
+        <div id="items"></div>
+    </div>
+</body>
+
+</html>
